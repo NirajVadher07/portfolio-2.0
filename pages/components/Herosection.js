@@ -27,7 +27,7 @@ const Herosection = () => {
                 <div className='text-center w-full lg:w-3/4 mb-5'>
                     I’m a fourth-year computer engineering student with a passion for web development, specializing in the MERN stack. During my academic journey, I’ve gained valuable experience through a successful internship where I actively contributed to a live project. I take pride in being a quick learner and a collaborative team member, always eager to embrace new challenges.
                 </div>
-                <div className='text-center w-3/4'>
+                <div className='text-center w-full lg:w-3/4'>
                     My true passion lies in crafting visually appealing websites that not only attract users but also address their needs effectively. I believe in the power of design to enhance user experiences and solve problems. I’m committed to applying my skills and knowledge to create beautiful and functional websites that leave a lasting impression on users.
                 </div>
             </div>
@@ -39,8 +39,8 @@ const Herosection = () => {
             <div className="flex justify-center items-center px-8 py-12" style={{ background: "linear-gradient(to bottom, #5F7FC4 0%, #5F7FC4 50%, #FFFFFF 50%, #FFFFFF 100%)" }}>
 
                 <div className='z-5 rounded-lg shadow-lg bg-white w-full px-8 py-8 flex flex-col justify-center items-center'>
-                    <div className='mb-3 text-3xl font-[700] flex justify-evenly items-center w-full lg:w-1/4'>
-                        <div className='rounded-full p-[5px] bg-yellow text-center'>
+                    <div className='mb-3 text-3xl font-[700] flex justify-center items-center w-full lg:w-1/4'>
+                        <div className='rounded-full bg-yellow text-center p-[5px] mx-4'>
                             <FaCode />
                         </div>
                         <div>
