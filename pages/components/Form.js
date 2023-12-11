@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MdOutlineCancel } from "react-icons/md";
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import { isValidEmail } from '../constants/emailchecking';
+import { isValidEmail } from '../../constants/emailchecking';
 
 const Form = ({ handleButtonClick }) => {
     const [details, setDetails] = useState({

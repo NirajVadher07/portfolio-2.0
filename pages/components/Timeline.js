@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { TIMELINE } from '../constants/timelineConstants';
+import { TIMELINE } from '../../constants/timelineConstants';
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 import { GiTeacher } from 'react-icons/gi';
 
