@@ -2,14 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import Image from 'next/image';
 import { Link } from 'react-scroll';
+import {LINKS} from "../../constants/linksConstant"
 
 const Header = () => {
-    const Links = [
-        { name: 'Home', link: 'home' },
-        { name: 'About', link: 'about' },
-        { name: 'Project', link: 'project' },
-        { name: 'Contact', link: 'contact' },
-    ];
 
     const [open, setOpen] = useState(false);
     const navRef = useRef(null);
@@ -48,7 +43,7 @@ const Header = () => {
             {/* Menu Icon */}
             <div className='lg:w-1/3 flex flex-row justify-start lg:justify-end items-center lg:items-center my-2'>
                 <div className={`lg:flex flex-col lg:flex-row ${open ? 'flex' : 'hidden'}`}>
-                    {Links.map((link, key) => (
+                    {LINKS.map((link, key) => (
                         <Link
                             key={key}
                             activeClass='active'

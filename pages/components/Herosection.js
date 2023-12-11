@@ -5,7 +5,7 @@ import Timeline from './Timeline';
 const Herosection = () => {
     return (
         <div>
-            <div id='home' className='h-screen'>
+            <div id='home' className='h-fit flex flex-col justify-center items-center'>
                 <div className='text-5xl font-[700] mt-20 text-center mb-5 px-4'>
                     Hey there, I’m Web Developer
                 </div>
