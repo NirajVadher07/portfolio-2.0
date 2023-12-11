@@ -25,10 +25,10 @@ const Herosection = () => {
                     Hi, I’m Niraj. Nice to meet you.
                 </div>
                 <div className='text-center w-full lg:w-3/4 mb-5'>
-                    I'm a fourth-year computer engineering student with a passion for web development, specializing in the MERN stack. During my academic journey, I've gained valuable experience through a successful internship where I actively contributed to a live project. I take pride in being a quick learner and a collaborative team member, always eager to embrace new challenges.
+                    I’m a fourth-year computer engineering student with a passion for web development, specializing in the MERN stack. During my academic journey, I’ve gained valuable experience through a successful internship where I actively contributed to a live project. I take pride in being a quick learner and a collaborative team member, always eager to embrace new challenges.
                 </div>
                 <div className='text-center w-3/4'>
-                    My true passion lies in crafting visually appealing websites that not only attract users but also address their needs effectively. I believe in the power of design to enhance user experiences and solve problems. I'm committed to applying my skills and knowledge to create beautiful and functional websites that leave a lasting impression on users.
+                    My true passion lies in crafting visually appealing websites that not only attract users but also address their needs effectively. I believe in the power of design to enhance user experiences and solve problems. I’m committed to applying my skills and knowledge to create beautiful and functional websites that leave a lasting impression on users.
                 </div>
             </div>
             {/* timeline */}
